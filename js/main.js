@@ -29,7 +29,7 @@ const intv1 = setInterval(() => {
 
   // if launch date passed
   if (distance < 0) {
-      clearInterval(intv1)
+      clearInterval(intv1);
     // Style and output text
     countdown.style.color = '#17a2b8';
     countdown.innerHTML = 'Launched!';
